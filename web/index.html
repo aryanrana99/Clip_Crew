@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ClipCrew</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%231F3635'/><circle cx='50' cy='50' r='18' fill='%23CACE00'/></svg>">
+  <link rel="stylesheet" href="/static/style.css?v=10">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div id="zoo"></div>
+
+  <header class="bar">
+    <h1 class="brand">Clip<span>Crew</span></h1>
+    <div class="menu-wrap">
+      <button class="burger" data-act="menu" aria-label="Menu" aria-expanded="false" aria-controls="menu">
+        <i></i><i></i><i></i>
+      </button>
+      <nav id="menu" class="menu" aria-hidden="true">
+        <div id="stats" class="stats"></div>
+        <button data-act="streamers"><span>Streamers</span><em>→</em></button>
+        <button data-act="clips"><span>Clips</span><b id="clipCount">0</b></button>
+        <button data-act="settings"><span>Settings</span><em>→</em></button>
+      </nav>
+    </div>
+  </header>
+
+  <div id="hint" class="hint">Drag to look around · scroll to zoom · click a crew member</div>
+  <aside id="panel" class="panel" aria-hidden="true"></aside>
+  <div id="modal" class="modal"></div>
+  <div id="toast" class="toast"></div>
+
+  <script type="module" src="/static/zoo.js?v=15"></script>
+</body>
+</html>

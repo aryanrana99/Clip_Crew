@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B0F4C"/>
+      <stop offset="0.45" stop-color="#B0237E"/>
+      <stop offset="0.75" stop-color="#FF6B4A"/>
+      <stop offset="1" stop-color="#FFC15E"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE27A"/>
+      <stop offset="1" stop-color="#FF3D7F"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFD1F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1080" height="1080" fill="url(#sky)"/>
+  <!-- striped retro sun -->
+  <circle cx="540" cy="600" r="300" fill="url(#sun)"/>
+  <clipPath id="sunclip"><circle cx="540" cy="600" r="300"/></clipPath>
+  <g fill="#B0237E" clip-path="url(#sunclip)">
+    <rect x="200" y="640" width="680" height="14"/>
+    <rect x="200" y="690" width="680" height="20"/>
+    <rect x="200" y="745" width="680" height="26"/>
+    <rect x="200" y="805" width="680" height="34"/>
+  </g>
+  <!-- sea -->
+  <rect y="840" width="1080" height="240" fill="#1A0B33"/>
+  <g stroke="#FF6BC1" stroke-width="6" opacity="0.7">
+    <line x1="330" y1="880" x2="750" y2="880"/>
+    <line x1="400" y1="920" x2="680" y2="920"/>
+  </g>
+  <!-- palm trees -->
+  <g fill="#1A0B33">
+    <path d="M190 845 C200 700 215 600 250 500 L262 504 C232 600 220 700 214 845 Z"/>
+    <path d="M256 500 C200 470 140 480 100 520 C150 495 205 495 256 510 Z"/>
+    <path d="M256 500 C230 440 180 410 130 410 C185 430 225 465 252 512 Z"/>
+    <path d="M256 500 C290 440 350 420 400 430 C345 445 300 470 262 512 Z"/>
+    <path d="M256 500 C320 480 380 500 410 550 C365 520 310 510 260 512 Z"/>
+    <path d="M256 500 C255 450 270 410 300 380 C285 420 275 460 262 510 Z"/>
+    <path d="M890 845 C880 720 865 640 830 560 L818 564 C848 640 862 720 866 845 Z"/>
+    <path d="M824 560 C880 530 940 540 980 580 C930 555 875 555 824 570 Z"/>
+    <path d="M824 560 C850 500 900 470 950 470 C895 490 855 525 828 572 Z"/>
+    <path d="M824 560 C790 500 730 480 680 490 C735 505 780 530 818 572 Z"/>
+    <path d="M824 560 C760 540 700 560 670 610 C715 580 770 570 820 572 Z"/>
+  </g>
+  <!-- name -->
+  <g font-family="Impact, 'Arial Black', sans-serif" text-anchor="middle" font-style="italic" transform="rotate(-6 540 400)">
+    <text x="548" y="388" font-size="210" fill="#2B0F4C" opacity="0.6">clipi.</text>
+    <text x="540" y="380" font-size="210" fill="url(#txt)" stroke="#2B0F4C" stroke-width="8" paint-order="stroke">clipi.</text>
+    <text x="548" y="568" font-size="210" fill="#2B0F4C" opacity="0.6">tchat</text>
+    <text x="540" y="560" font-size="210" fill="#FFE27A" stroke="#2B0F4C" stroke-width="8" paint-order="stroke">tchat</text>
+  </g>
+</svg>

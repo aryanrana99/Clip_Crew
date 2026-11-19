@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <rect width="1080" height="1080" fill="#1F3635"/>
+  <!-- crop corners: the "clip" frame -->
+  <g fill="none" stroke="#CACE00" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M300 400 V300 H400"/>
+    <path d="M680 300 H780 V400"/>
+    <path d="M780 680 V780 H680"/>
+    <path d="M400 780 H300 V680"/>
+  </g>
+  <!-- play button -->
+  <path d="M470 420 L670 540 L470 660 Z" fill="#FCFBF4" stroke="#FCFBF4" stroke-width="30" stroke-linejoin="round"/>
+  <!-- live dot -->
+  <circle cx="400" cy="540" r="34" fill="#FF5A5F"/>
+</svg>

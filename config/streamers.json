@@ -1,0 +1,74 @@
+[
+  {
+    "id": "tw_lacy",
+    "platform": "twitch",
+    "handle": "lacy",
+    "name": "lacy",
+    "url": "https://www.twitch.tv/lacy",
+    "enabled": true,
+    "added": 1795002604.6171958
+  },
+  {
+    "id": "tw_jasontheween",
+    "platform": "twitch",
+    "handle": "jasontheween",
+    "name": "jasontheween",
+    "url": "https://www.twitch.tv/jasontheween",
+    "enabled": true,
+    "added": 1795002604.6186147
+  },
+  {
+    "id": "tw_theburntpeanut",
+    "platform": "twitch",
+    "handle": "theburntpeanut",
+    "name": "theburntpeanut",
+    "url": "https://www.twitch.tv/theburntpeanut",
+    "enabled": true,
+    "added": 1795002604.6195195
+  },
+  {
+    "id": "yt_carryminati",
+    "platform": "youtube",
+    "handle": "@CarryMinati",
+    "name": "CarryMinati",
+    "url": "https://www.youtube.com/@CarryMinati",
+    "enabled": true,
+    "added": 1795002718.3838055
+  },
+  {
+    "id": "yt_ishowspeed",
+    "platform": "youtube",
+    "handle": "@IShowSpeed",
+    "name": "IShowSpeed",
+    "url": "https://www.youtube.com/@IShowSpeed",
+    "enabled": true,
+    "added": 1795030773.7014475
+  },
+  {
+    "id": "yt_carryislive",
+    "platform": "youtube",
+    "handle": "@CarryisLive",
+    "name": "CarryisLive",
+    "url": "https://www.youtube.com/@CarryisLive",
+    "enabled": true,
+    "added": 1795030773.7029102
+  },
+  {
+    "id": "tw_kaicenat",
+    "platform": "twitch",
+    "handle": "kaicenat",
+    "name": "kaicenat",
+    "url": "https://www.twitch.tv/kaicenat",
+    "enabled": true,
+    "added": 1795030773.7040493
+  },
+  {
+    "id": "tw_jynxzi",
+    "platform": "twitch",
+    "handle": "jynxzi",
+    "name": "jynxzi",
+    "url": "https://www.twitch.tv/jynxzi",
+    "enabled": true,
+    "added": 1795030773.7061236
+  }
+]

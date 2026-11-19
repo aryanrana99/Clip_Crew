@@ -1,0 +1,16 @@
+.venv/
+.env
+data/
+__pycache__/
+*.pyc
+config/serveo_key*
+config/manager_chat.json
+share-link.txt
+tools/
+.claude/
+config/requirements.json
+*.log
+/(3
+# Gondens DEMO font: its license forbids publishing it - download it yourself (see README)
+web/fonts/gondens.otf
+web/fonts/gondens-LICENSE.txt
